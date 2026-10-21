@@ -1,0 +1,17 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# node / next
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# vercel
+.vercel/
+
+# os
+.DS_Store
